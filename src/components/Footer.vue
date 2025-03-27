@@ -25,6 +25,13 @@
               <li><a href="#">Terms & Conditions</a></li>
             </ul>
           </div>
+          <div class="footer-column">
+          <h3>Payment methods</h3>
+          <div class="payment-methods">
+            <img src="../assets/easypaisa.png" alt="Payment methods" />
+            <img src="../assets/jazzcash.png" alt="Payment methods" />
+          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -178,5 +185,9 @@ export default {
   .footer-column {
     width: 100%;
   }
+}
+.payment-methods img{
+  width: 60px;
+  margin-right: 10px;
 }
 </style>

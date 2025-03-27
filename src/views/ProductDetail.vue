@@ -47,6 +47,10 @@
 
           <div class="product-actions">
             <button class="buy-now-btn" @click="onBuyNow">BUY NOW</button>
+            <div class="payment-methods">
+            <img src="../assets/easypaisa.png" alt="Payment methods" />
+            <img src="../assets/jazzcash.png" alt="Payment methods" />
+          </div>
           </div>
 
           <div class="product-specs">
@@ -573,5 +577,9 @@ export default {
   .similar-products-grid {
     grid-template-columns: 1fr;
   }
+}
+.payment-methods img{
+  width: 40px;
+  margin-right: 10px;
 }
 </style>
