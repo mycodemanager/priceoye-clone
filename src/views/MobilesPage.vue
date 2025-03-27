@@ -3,7 +3,7 @@
     <Header />
     <div class="container">
       <div class="banner">
-        <img src="https://ext.same-assets.com/3715870235/3310428277.bin" alt="Home banner" />
+        <img src="../assets/banner.png" alt="Home banner" />
       </div>
       <h1 class="page-title">Buy Mobile Phones in Pakistan 2025</h1>
       <p class="page-description">900 results for Mobiles. Find a wide range of mobiles at the lowest rates in Pakistan, only at Priceoye.</p>
