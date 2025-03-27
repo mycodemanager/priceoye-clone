@@ -9,7 +9,7 @@
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <img src="https://ext.same-assets.com/1903171383/316568000.svg" alt="PriceOye.pk" />
+            <img src="../assets/logo.png" alt="PriceOye.pk" />
           </div>
           <div class="search-bar">
             <input type="text" placeholder="Search..." />
@@ -92,7 +92,7 @@ export default {
 }
 
 .main-header {
-  background-color: #41a3e9;
+  /* background-color: #41a3e9; */
   padding: 15px 0;
 }
 
