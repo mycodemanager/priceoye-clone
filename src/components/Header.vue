@@ -2,13 +2,14 @@
   <header class="header">
     <div class="header-top">
       <div class="notification-bar">
-        Orders placed after March 27th will be delivered after Eid. For Karachi, Lahore, Islamabad, and Rawalpindi, orders placed after March 29th will be delivered after Eid, if dispatched from the same city warehouse.
+        Orders placed after March 27th will be delivered after Eid. For Karachi, Lahore, Islamabad, and Rawalpindi,
+        orders placed after March 29th will be delivered after Eid, if dispatched from the same city warehouse.
       </div>
     </div>
     <div class="main-header">
       <div class="container">
         <div class="header-content">
-          <div class="logo">
+          <div class="logo" @click="onHome">
             <img src="../assets/logo.png" alt="PriceOye.pk" />
           </div>
           <div class="search-bar">
@@ -67,7 +68,12 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  methods: {
+    onHome() {
+      this.$router.push({ name: 'mobiles' });
+    }
+  }
 }
 </script>
 
@@ -157,7 +163,7 @@ export default {
 
 .navigation {
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px 0;
 }
 
