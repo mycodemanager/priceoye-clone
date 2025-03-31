@@ -6,7 +6,8 @@
         <img src="../assets/banner.png" alt="Home banner" />
       </div>
       <h1 class="page-title">Buy Mobile Phones in Pakistan 2025</h1>
-      <p class="page-description">900 results for Mobiles. Find a wide range of mobiles at the lowest rates in Pakistan, only at Priceoye.</p>
+      <p class="page-description">900 results for Mobiles. Find a wide range of mobiles at the lowest rates in Pakistan,
+        only at Priceoye.</p>
 
       <div class="content-wrapper">
         <ProductGrid :products="products" />
@@ -35,85 +36,303 @@ export default {
       products: [
         {
           id: '1',
-          name: 'Itel S24',
-          price: 23999,
-          originalPrice: 33999,
-          discount: '29%',
-          image: 'https://ext.same-assets.com/3715870235/3143272039.bin',
-          rating: 4.8,
-          reviews: 136
-        },
-        {
-          id: '2',
-          name: 'Samsung Galaxy A16',
-          price: 43799,
-          originalPrice: 54999,
-          discount: '20%',
-          image: 'https://ext.same-assets.com/3715870235/622709223.bin',
-          rating: 4.8,
-          reviews: 45
-        },
-        {
-          id: '3',
-          name: 'Samsung Galaxy A05s',
-          price: 30400,
-          originalPrice: 38500,
-          discount: '21%',
-          image: 'https://ext.same-assets.com/3715870235/1158475021.bin',
-          rating: 4.9,
-          reviews: 136,
-          badge: true
-        },
-        {
-          id: '4',
-          name: 'itel S23 Plus',
-          price: 33999,
-          originalPrice: 44999,
-          discount: '24%',
-          image: 'https://ext.same-assets.com/3715870235/4170368268.bin',
-          rating: 4.8,
-          reviews: 12
-        },
-        {
-          id: '5',
-          name: 'Samsung Galaxy A15',
-          price: 40200,
-          originalPrice: 52999,
-          discount: '24%',
-          image: 'https://ext.same-assets.com/3715870235/1130977329.bin',
-          rating: 4.9,
-          reviews: 307,
-          badge: true
-        },
-        {
-          id: '6',
-          name: 'AllCall Shine 12 Pro',
-          price: 16999,
-          originalPrice: 20999,
-          discount: '19%',
-          image: 'https://ext.same-assets.com/3715870235/2701030634.bin',
-          rating: 0,
-          reviews: 0
-        },
-        {
-          id: '7',
           name: 'Xiaomi Redmi Note 13',
           price: 44500,
           originalPrice: 57999,
           discount: '23%',
-          image: 'https://ext.same-assets.com/3715870235/3903702123.bin',
-          rating: 4.9,
+          image: 'https://www.dxomark.com/wp-content/uploads/medias/post-164163/Xiaomi-Redmi-Note-13-Pro-5G_featured-image-packshot-review-1024x691.jpg',
+          rating: 4.7,
           reviews: 549
         },
         {
+          id: '2',
+          name: 'Samsung Galaxy S23 FE',
+          price: 49999,
+          originalPrice: 59999,
+          discount: '17%',
+          image: 'https://static.toiimg.com/thumb/msid-107624439,imgsize-1803723,width-400,resizemode-4/107624439.jpg',
+          rating: 4.6,
+          reviews: 342
+        },
+        {
+          id: '3',
+          name: 'Apple iPhone 15',
+          price: 49999,
+          originalPrice: 79900,
+          discount: '37%',
+          image: 'https://static.toiimg.com/thumb/msid-113683512,width-1280,height-720,resizemode-4/113683512.jpg',
+          rating: 4.8,
+          reviews: 1256
+        },
+        {
+          id: '4',
+          name: 'Realme GT 2 Pro',
+          price: 39999,
+          originalPrice: 49999,
+          discount: '20%',
+          image: 'https://images.moneycontrol.com/static-mcnews/2022/04/Realme-GT-2-Pro-1-770x433.jpg',
+          rating: 4.5,
+          reviews: 782
+        },
+        {
+          id: '5',
+          name: 'Vivo X90',
+          price: 48999,
+          originalPrice: 63999,
+          discount: '23%',
+          image: 'https://static.sociofyme.com/thumb/113632886/113632886.jpg',
+          rating: 4.4,
+          reviews: 493
+        },
+        {
+          id: '6',
+          name: 'Nokia X30 5G',
+          price: 36999,
+          originalPrice: 48999,
+          discount: '24%',
+          image: 'https://www.gizmochina.com/wp-content/uploads/2023/02/Nokia-X30-5G.jpg',
+          rating: 4.3,
+          reviews: 289
+        },
+        {
+          id: '7',
+          name: 'Google Pixel 7a',
+          price: 43999,
+          originalPrice: 52999,
+          discount: '17%',
+          image: 'https://www.livemint.com/lm-img/img/2025/03/20/600x338/pixel_9a_1742448181991_1742448187963.png',
+          rating: 4.6,
+          reviews: 615
+        },
+        {
           id: '8',
-          name: 'Xiaomi Redmi Note 14',
-          price: 48500,
-          originalPrice: 53999,
-          discount: '10%',
-          image: 'https://ext.same-assets.com/3715870235/1177378232.bin',
-          rating: 4.9,
-          reviews: 32
+          name: 'Apple iPhone SE 2022',
+          price: 33999,
+          originalPrice: 49900,
+          discount: '32%',
+          image: 'https://images.moneycontrol.com/static-mcnews/2022/03/Apple-iPhoneSE-2022.jpg',
+          rating: 4.4,
+          reviews: 742
+        },
+        {
+          id: '9',
+          name: 'Motorola Edge 50 Fusion',
+          price: 20999,
+          originalPrice: 27999,
+          discount: '25%',
+          image: 'https://i.ytimg.com/vi/Y8Ua_pocT2Y/hq720.jpg',
+          rating: 4.3,
+          reviews: 328
+        },
+        {
+          id: '10',
+          name: 'OnePlus 13R',
+          price: 39999,
+          originalPrice: 45999,
+          discount: '13%',
+          image: 'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1xsxyr.img?w=700&h=400&m=6',
+          rating: 4.7,
+          reviews: 892
+        },
+        {
+          id: '11',
+          name: 'POCO X7 Pro',
+          price: 22999,
+          originalPrice: 29999,
+          discount: '23%',
+          image: 'https://i.ytimg.com/vi/khcMWxVg6DI/hq720.jpg',
+          rating: 4.5,
+          reviews: 463
+        },
+        {
+          id: '12',
+          name: 'iQOO 15',
+          price: 41999,
+          originalPrice: 49999,
+          discount: '16%',
+          image: 'https://i.ytimg.com/vi/JuyMhUPJRw0/hq720.jpg',
+          rating: 4.6,
+          reviews: 527
+        },
+        {
+          id: '13',
+          name: 'OnePlus Nord CE 3',
+          price: 24999,
+          originalPrice: 29999,
+          discount: '17%',
+          image: 'https://cdn.zeebiz.com/sites/default/files/2024/05/27/295913-4-32.jpg',
+          rating: 4.4,
+          reviews: 618
+        },
+        {
+          id: '14',
+          name: 'Xiaomi 12 Pro',
+          price: 44999,
+          originalPrice: 62999,
+          discount: '29%',
+          image: 'https://images.firstpost.com/uploads/2023/12/Xiaomi-12-Pro-5G.jpg',
+          rating: 4.5,
+          reviews: 721
+        },
+        {
+          id: '15',
+          name: 'Samsung Galaxy S22',
+          price: 46999,
+          originalPrice: 65999,
+          discount: '29%',
+          image: 'https://www.livemint.com/lm-img/img/2023/12/04/600x338/S23-FE-Product-Group-KV_pc_1701670223901_1701670232186.webp',
+          rating: 4.7,
+          reviews: 1049
+        },
+        {
+          id: '16',
+          name: 'Nothing Phone 2',
+          price: 42999,
+          originalPrice: 49999,
+          discount: '14%',
+          image: 'https://images.firstpost.com/uploads/2024/06/Nothing-Phone-2-2024-06-af84e46486c79ec4c402d84b9ef92d68-1200x675.jpg',
+          rating: 4.5,
+          reviews: 862
+        },
+        {
+          id: '17',
+          name: 'OPPO Reno 10 Pro Plus',
+          price: 46999,
+          originalPrice: 54999,
+          discount: '15%',
+          image: 'https://i.ytimg.com/vi/t7b05JbtNxs/hq720.jpg',
+          rating: 4.4,
+          reviews: 489
+        },
+        {
+          id: '18',
+          name: 'Google Pixel 8a',
+          price: 49999,
+          originalPrice: 56999,
+          discount: '12%',
+          image: 'https://i.ytimg.com/vi/msFRTyLTuhM/hq720.jpg',
+          rating: 4.6,
+          reviews: 358
+        },
+        {
+          id: '19',
+          name: 'Realme 14 Pro Plus',
+          price: 34999,
+          originalPrice: 42999,
+          discount: '19%',
+          image: 'https://i.ytimg.com/vi/khcMWxVg6DI/hq720.jpg',
+          rating: 4.3,
+          reviews: 472
+        },
+        {
+          id: '20',
+          name: 'OPPO Reno 13 Pro',
+          price: 43999,
+          originalPrice: 49999,
+          discount: '12%',
+          image: 'https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2025/01/Reno-13-Pro-vs.-OnePlus-13R-Which-Is-The-Better-Android-Midranger-Below-Rs.-500001.png',
+          rating: 4.4,
+          reviews: 384
+        },
+        {
+          id: '21',
+          name: 'Xiaomi Redmi Note 14 Pro Plus',
+          price: 26999,
+          originalPrice: 32999,
+          discount: '18%',
+          image: 'https://i.ytimg.com/vi/khcMWxVg6DI/hq720.jpg',
+          rating: 4.5,
+          reviews: 531
+        },
+        {
+          id: '22',
+          name: 'Motorola Edge 50 Neo',
+          price: 30999,
+          originalPrice: 37999,
+          discount: '18%',
+          image: 'https://i.ytimg.com/vi/khcMWxVg6DI/hq720.jpg',
+          rating: 4.2,
+          reviews: 297
+        },
+        {
+          id: '23',
+          name: 'iQOO Neo 9 Pro',
+          price: 35999,
+          originalPrice: 42999,
+          discount: '16%',
+          image: 'https://assets.mspimages.in/gear/wp-content/uploads/2022/12/Best-Gaming-Smartphones-From-Rs-20000-to-Rs-50000-min.png',
+          rating: 4.6,
+          reviews: 486
+        },
+        {
+          id: '24',
+          name: 'Samsung Galaxy A54',
+          price: 28999,
+          originalPrice: 37999,
+          discount: '24%',
+          image: 'https://i.ytimg.com/vi/rZmGmSruQys/hq720.jpg',
+          rating: 4.4,
+          reviews: 738
+        },
+        {
+          id: '25',
+          name: 'OnePlus Nord 4',
+          price: 32999,
+          originalPrice: 38999,
+          discount: '15%',
+          image: 'https://i.ytimg.com/vi/khcMWxVg6DI/hq720.jpg',
+          rating: 4.5,
+          reviews: 652
+        },
+        {
+          id: '26',
+          name: 'POCO F6',
+          price: 29999,
+          originalPrice: 37999,
+          discount: '21%',
+          image: 'https://i.ytimg.com/vi/rZmGmSruQys/hq720.jpg',
+          rating: 4.3,
+          reviews: 421
+        },
+        {
+          id: '27',
+          name: 'Vivo V30 Pro',
+          price: 39999,
+          originalPrice: 46999,
+          discount: '15%',
+          image: 'https://static.sociofyme.com/thumb/113632886/113632886.jpg',
+          rating: 4.4,
+          reviews: 389
+        },
+        {
+          id: '28',
+          name: 'Motorola Edge 50 Pro',
+          price: 35999,
+          originalPrice: 43999,
+          discount: '18%',
+          image: 'https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1xsxyr.img',
+          rating: 4.5,
+          reviews: 412
+        },
+        {
+          id: '29',
+          name: 'Nothing Phone 2a',
+          price: 28999,
+          originalPrice: 34999,
+          discount: '17%',
+          image: 'https://i.ytimg.com/vi/mZs-wJ38nN0/maxresdefault.jpg',
+          rating: 4.4,
+          reviews: 546
+        },
+        {
+          id: '30',
+          name: 'Samsung Galaxy S21 FE',
+          price: 34999,
+          originalPrice: 54999,
+          discount: '36%',
+          image: 'https://i.ytimg.com/vi/mZs-wJ38nN0/maxresdefault.jpg',
+          rating: 4.5,
+          reviews: 892
         }
       ]
     }
@@ -125,28 +344,34 @@ export default {
 .mobiles-page {
   background-color: #f9f9f9;
 }
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
 }
+
 .banner {
   width: 100%;
   margin-bottom: 20px;
 }
+
 .banner img {
   width: 100%;
   border-radius: 8px;
 }
+
 .page-title {
   font-size: 24px;
   color: #26282f;
   margin-bottom: 10px;
 }
+
 .page-description {
   color: #99afb8;
   margin-bottom: 20px;
 }
+
 .content-wrapper {
   display: flex;
 }
