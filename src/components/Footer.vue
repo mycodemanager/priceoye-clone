@@ -17,15 +17,6 @@
             </div>
           </div>
           <div class="footer-column">
-            <h3>Customer Service</h3>
-            <ul>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
           <h3>Payment methods</h3>
           <div class="payment-methods">
             <img src="../assets/easypaisa.png" alt="Payment methods" />
