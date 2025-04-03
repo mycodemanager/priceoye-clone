@@ -492,7 +492,7 @@ export default {
     },
     onBuyNow() {
       // 在这里添加购买逻辑，例如添加到购物车或立即购买
-      this.$router.push({ name: 'payment' });
+      this.$router.push({ name: 'payment',params: { id: this.product.id.toString() } });
     }
   },
   created() {

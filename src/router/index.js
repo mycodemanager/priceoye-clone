@@ -23,7 +23,7 @@ const routes = [
     props: true
   },
   {
-    path: '/payment',
+    path: '/order/:id',
     name: 'payment',
     component: Payment,
     props: true
