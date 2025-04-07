@@ -30,7 +30,7 @@
       <div class="container">
 
         <div class="copyright">
-          <p>Copyright © 2025 | Powered by Data Network Solutions</p>
+          <p>Copyright © 2025 | Powered by Data Network Solutions (SMC-Private) Limited</p>
         </div>
       </div>
     </div>
